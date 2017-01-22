@@ -5,8 +5,13 @@ files = os.listdir('.')
 
 links = []
 
+ignorelist = [".git", "README.md"]
+
 for idx,file in enumerate(files):
 	print("File no: "+str(idx)+"/"+str(len(files))+".")
+	if file in ignorelist:
+		print("Skipping "+str(file))
+		continue
 	f = open(file, 'r')
 	try:
 		jsdata = json.loads(f.read())
