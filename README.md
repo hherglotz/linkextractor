@@ -3,7 +3,7 @@
 linkextractor is a small Python script that will extract all links from a jDownloader 2 file list. jDownloader 2 does not support exporting all links as plain text at the moment.
 
 ## What linkextractor does
-It will read in all of your links from jDownloader that are stored in seperate files in an archive called downloadList*.zip` and write all links in separate lines into a file called `linklist.txt`.
+It will read in all of your links from jDownloader that are stored in seperate files in an archive called `downloadList*.zip` and write all links in separate lines into a file called `linklist.txt`.
 
 ## Prerequisites
 linkextractor has been tested with Python 2.7 and requires an existing Python 2.7 install. If you haven`t installed Python on your system, get it directly at the [Python Website](https://www.python.org/).
